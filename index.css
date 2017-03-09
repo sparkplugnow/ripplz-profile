@@ -1,0 +1,62 @@
+body{
+	background-color: grey;
+	margin: 0px;
+	font-family: "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 945px;
+}
+
+header{
+	background-color: green;
+	padding: 15px;
+	/*border-bottom: 2px solid yellow;*/
+	box-shadow: 1px 10px 200px yellow;
+	width: 100%;
+}
+
+section div img{
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+	border: 2px solid yellow;
+	position: relative;
+	left: -5em;
+	top: -8em;
+	float: right;
+}
+
+#personDetails{
+	height: 30%;
+} 
+
+#name{
+	color: white;
+	font-size: 400%;
+	position: relative;
+	left: 90px;
+	letter-spacing: 4px;
+	font-size: 500%;
+	text-shadow: 2px 2px 2px black;
+}
+
+#details{
+	position: relative;
+	left: 260px;
+	top: -70px;
+	font-size: 1.8em;
+}
+
+#address{
+	position: relative;
+	text-align: center;
+	top: -130px;
+}
+
+div #details p:first-child{
+	text-align: center;
+}
+
+footer{
+	background-color: green;
+	padding-top: 5px;
+	padding-left: 10px;
+}
